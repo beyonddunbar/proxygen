@@ -75,7 +75,7 @@ function install_dependencies_mac() {
     lz4                      \
     snappy                   \
     xz                       \
-    openssl                  \
+    # openssl                  \
     libsodium
 
   brew link                 \
@@ -88,7 +88,7 @@ function install_dependencies_mac() {
     libevent                \
     lz4                     \
     snappy                  \
-    openssl                 \
+    # openssl                 \
     xz                      \
     libsodium
 }
